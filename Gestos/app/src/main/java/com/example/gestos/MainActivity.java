@@ -12,6 +12,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        String codena="Cadena que es un cambio";
     }
     public void irG1(View v){
         Intent intent=new Intent(getApplicationContext(),G1.class);
